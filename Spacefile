@@ -1,0 +1,10 @@
+# Spacefile Docs: https://go.deta.dev/docs/spacefile/v0
+v: 0
+micros:
+  - name: y2DownloadSpace
+    src: ./
+    engine: nodejs16
+    run: "node app.js"
+    public_routes:
+      -  "/getLink" 
+      
